@@ -68,7 +68,7 @@ namespace StarterAssets
 #if ENABLE_INPUT_SYSTEM
 		private PlayerInput _playerInput;
 #endif
-		private CharacterController _controller;
+		public CharacterController _controller;
 		private StarterAssetsInputs _input;
 		private GameObject _mainCamera;
 
